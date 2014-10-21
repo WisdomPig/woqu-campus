@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>我趣旅行校园招聘</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<link rel="stylesheet" type="text/css" href="css/campus.css">
+		<link rel="stylesheet" type="text/css" href="css/parallax.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="pages">
+				<section class="page" id="#page01">
+					<img class="logo" src="img/logo.png">
+					<img class="page_bg" src="img/index-bg.jpg">
+					<img class="slogan" src="img/slogan.png" data-animation="slideToBottom" data-timing-function="ease-in" data-delay="100">
+					<img class="slogan_fun" src="img/slogan-fun.png" data-animation="slideToRight" data-timing-function="ease-in" data-delay="600">
+				</section>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript" src="js/parallax.js"><script type="text/javascript" src="js/zepto.min.js"></script></script>
+		<script type="text/javascript">
+		$(function() {
+			$('.pages').parallax({
+				direction: 'vertical',
+				swipeAnim: 'cover',
+				drag:      true,
+				loading:   false,
+				indicator: false,
+				arrow:     true,
+				onchange: function(index, element, direction) {
+					$('#current').html(index + 1);
+				}
+			});
+		});
+		</script>
+	</body>
+</html>
