@@ -31,9 +31,11 @@
 .bubble_text {position: absolute;width: 100px;height: 100px;background-color: #f28125;border-radius: 50%;font-size: 30px;line-height: 100px;text-align: center;font-weight: bold;color: #fff;}
 .t_shirt {z-index: 10;}
 
-#page05, #page06, #page07, #page08, #page09 {background-color: #343142;}
+#page05 {background-color: #44b9b7;}
 .join_us {width: 100%;}
 .join_us_tips {position: absolute;top: 0;left: 0;width: 100%;}
+
+#page06, #page07, #page08, #page09 {background-color: #343142;}
 
 	
 	
