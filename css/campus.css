@@ -11,4 +11,5 @@
 .treatment_bg {width: 100%;}
 .eraser_list {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 .eraser_wrapper_bg {position: absolute;top: 0;left: 0;width: 100%;}
-.eraser_list li {}
+.eraser_list ul {overflow: hidden;position: relative;z-index: 100;padding-top: 43%;}
+.eraser_list li {width: 40%;float: left;margin: 3% 0 0 7%;height: 90px;background-color: #f1f1f1;}
