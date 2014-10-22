@@ -115,8 +115,8 @@
 					if (!canvas.isDrawing) {
 		               return;
 		            }
-		            var x = e.changedTouches[0].clientX - this.offsetLeft - 90;
-		            var y = e.changedTouches[0].clientY - this.offsetTop;
+		            var x = e.changedTouches[0].clientX - $(e.target).offset().left;
+		            var y = e.changedTouches[0].clientY - $(e.target).offset().top;
 		            var radius = 50;
 		            var fillColor = '#ff0000';
 		            ctx.globalCompositeOperation = 'destination-out';
