@@ -38,12 +38,30 @@
 					<div class="eraser_list">
 						<img class="eraser_wrapper_bg" src="img/eraser-wrapper.png">
 						<ul>
-							<li class="eraser_item"></li>
-							<li class="eraser_item"></li>
-							<li class="eraser_item"></li>
-							<li class="eraser_item"></li>
-							<li class="eraser_item"></li>
-							<li class="eraser_item"></li>
+							<li class="eraser_item">
+								<span>五险<br/>一金</span>
+								<div class="mask"></div>
+							</li>
+							<li class="eraser_item">
+								<span>带薪<br/>年假</span>
+								<div class="mask"></div>
+							</li>
+							<li class="eraser_item">
+								<span>期权</span>
+								<div class="mask"></div>
+							</li>
+							<li class="eraser_item">
+								<span>年终<br/>奖金</span>
+								<div class="mask"></div>
+							</li>
+							<li class="eraser_item">
+								<span>年终<br/>双薪</span>
+								<div class="mask"></div>
+							</li>
+							<li class="eraser_item">
+								<span>年度<br/>旅行</span>
+								<div class="mask"></div>
+							</li>
 						</ul>
 					</div>
 				</section>
@@ -97,9 +115,9 @@
 					if (!canvas.isDrawing) {
 		               return;
 		            }
-		            var x = e.changedTouches[0].clientX - this.offsetLeft + 50;
-		            var y = e.changedTouches[0].clientY - this.offsetTop + 70;
-		            var radius = 30;
+		            var x = e.changedTouches[0].clientX - this.offsetLeft - 90;
+		            var y = e.changedTouches[0].clientY - this.offsetTop;
+		            var radius = 50;
 		            var fillColor = '#ff0000';
 		            ctx.globalCompositeOperation = 'destination-out';
 		            ctx.fillCircle(x, y, radius, fillColor);
@@ -114,7 +132,7 @@
 				});
 		    }
 
-		    $('.eraser_item').each(function() {
+		    $('.mask').each(function() {
 		    	init(this, 256, 284, '#ddd');
 		    });
 		    //var container = document.getElementById('eraser');
