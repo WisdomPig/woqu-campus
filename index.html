@@ -115,9 +115,9 @@
 					if (!canvas.isDrawing) {
 		               return;
 		            }
-		            var x = e.changedTouches[0].clientX - $(e.target).offset().left;
-		            var y = e.changedTouches[0].clientY - $(e.target).offset().top;
-		            var radius = 50;
+		            var x = e.changedTouches[0].clientX - $(e.target).offset().left + 70;
+		            var y = e.changedTouches[0].clientY - $(e.target).offset().top + 70;
+		            var radius = 80;
 		            var fillColor = '#ff0000';
 		            ctx.globalCompositeOperation = 'destination-out';
 		            ctx.fillCircle(x, y, radius, fillColor);
