@@ -38,12 +38,12 @@
 					<div class="eraser_list">
 						<img class="eraser_wrapper_bg" src="img/eraser-wrapper.png">
 						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li class="eraser_item"></li>
+							<li class="eraser_item"></li>
+							<li class="eraser_item"></li>
+							<li class="eraser_item"></li>
+							<li class="eraser_item"></li>
+							<li class="eraser_item"></li>
 						</ul>
 					</div>
 				</section>
@@ -114,8 +114,11 @@
 				});
 		    }
 
-		    var container = document.getElementById('eraser');
-		    init(container, 256, 284, '#ddd');
+		    $('.eraser_item').each(function() {
+		    	init(this, 256, 284, '#ddd');
+		    });
+		    //var container = document.getElementById('eraser');
+		    //init(container, 256, 284, '#ddd');
 		});
 		</script>
 	</body>
