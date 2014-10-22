@@ -112,7 +112,7 @@
 		            ctx.fillStyle = fillColor;
 		            ctx.fillRect(0, 0, width, height);
 		        };
-		        ctx.clearTo(fillColor || "#ddd");
+		        ctx.clearTo(fillColor || "#909090");
 
 		        $(canvas.node).on('touchmove', function(e) {
 					e.stopPropagation(); 
@@ -137,7 +137,7 @@
 		    }
 
 		    $('.mask').each(function() {
-		    	init(this, 256, 284, '#ddd');
+		    	init(this, 256, 284, '#909090');
 		    });
 		});
 		</script>

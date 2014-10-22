@@ -14,7 +14,7 @@
 .eraser_list {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 .eraser_wrapper_bg {position: absolute;top: 0;left: 0;width: 100%;}
 .eraser_list ul {overflow: hidden;position: relative;z-index: 100;padding-top: 25%;}
-.eraser_list li {position: relative;width: 35%;float: left;margin: 3% 0 0 6%;height: 90px;background-color: #000;font-size: 30px;color: #fff;text-align: center;font-family: "miscrosoft yahei";font-weight: bold;}
+.eraser_list li {position: relative;width: 35%;float: left;margin: 3% 0 0 6%;height: 90px;line-height: 45px;background-color: #f1f1f1;font-size: 40px;color: #555;text-align: center;font-family: "miscrosoft yahei";font-weight: bold;}
 .eraser_list li:nth-child(odd) {margin-left: 12%;}
 .eraser_list li canvas {width: 100%;height: 100%;}
 .mask {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
