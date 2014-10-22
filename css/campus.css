@@ -27,4 +27,12 @@
 
 #page04 {background-color: #f1f1f1;}
 #page04 h2 {font-size: 42px;line-height: 42px;padding: 3% 0 0 3%;color: #2a2834;}
-.diaosi {width: 50%;margin-left: 25%;margin-top: 20px;}
+.diaosi, .t_shirt, .jacket, .trouser, .shoes {position: absolute;width: 50%;left: 25%;top: 17%;z-index: 8;}
+.bubble_text {position: absolute;width: 100px;height: 100px;background-color: #f28125;border-radius: 50%;font-size: 30px;line-height: 100px;text-align: center;font-weight: bold;color: #fff;}
+.t_shirt {z-index: 10;}
+
+	
+	
+	
+	
+	
