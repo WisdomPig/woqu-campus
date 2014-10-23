@@ -204,7 +204,7 @@
 				$(this).parent().hide();
 			});
 
-			$('.job_detail_wrapper').on('touchstart', function(e) {
+			$('.job_detail_wrapper').on('touchstart, touchmove, touchend', function(e) {
 				e.stopPropagation(); 
 			});
 
