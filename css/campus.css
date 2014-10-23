@@ -34,7 +34,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 .bubble_text {position: absolute;width: 100px;height: 100px;background-color: #f28125;border-radius: 50%;font-size: 30px;line-height: 100px;text-align: center;font-weight: bold;color: #fff;}
 .t_shirt {z-index: 10;}
 
-#page05, #page06, #page07, #page08 {background-color: #343142;}
+#page05 {background-color: #f1f1f1;}
+.job_pre {width: 100%;}
+
+#page06, #page07, #page08, #page09 {background-color: #343142;}
 .job_detail {width: 100%;z-index: 99;}
 .job_text {position: absolute;left: 4%;font-size: 15px;color: #d5d5d5;font-weight: bold;}
 .jt_d {color: #343142;}
@@ -50,10 +53,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 .job_detail_text p {padding-left: 17px;text-indent: -17px;}
 .jdt_dark {color: #343142;}
 
-#page9, #page10 {background-color: #f1f1f1;}
+#page10, #page11 {background-color: #f1f1f1;}
 .gz_campus, .gl_campus {width: 100%;}
 .zd, .hg, .gg, .gldz, .gllg, .glly, .glsf {position: absolute;width: 100%;left: 0;top: 0;}
 
-#page11 {background-color: #343142;}
+#page12 {background-color: #343142;}
 .join_us {width: 100%;}
 .join_us_tips {position: absolute;top: 0;left: 0;width: 100%;}
