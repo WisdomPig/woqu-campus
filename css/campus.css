@@ -50,6 +50,6 @@
 
 #page10, #page11 {background-color: #f1f1f1;}
 .gz_campus, .gl_campus {width: 100%;}
-.zd, .hg, .gg, .gldz, .gllg, .glly, .glsf {position: absolute;width: 38.75%;}
+.zd, .hg, .gg, .gldz, .gllg, .glly, .glsf {position: absolute;width: 100%;left: 0;top: 0;}
 
 
