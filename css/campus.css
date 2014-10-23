@@ -42,3 +42,4 @@
 .jt_01 {top: 12%;}
 .jt_02 {top: 17%;}
 .jt_03 {top: 21%;}
+.job_btn {position: absolute;top: 12%;right: 5%;width: 90px;height: 90px;background-color: #736f87;border-radius: 50%;text-align: center;line-height: 90px;color: #fff;font-size: 16px;}
