@@ -37,3 +37,20 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 	100% {-webkit-transform: scale(1, 1);opacity: 1;}
 }
 
+.page [data-animation="slideBubble"] {
+	-webkit-transition: slideBubble 5s ease 0.3s;
+	transition: slideBubble 5s ease 0.3s;
+}
+@-webkit-keyframes slideBubble{
+	0% {-webkit-transform:translate3d(-2000px, 0, 0);transform:translate3d(-2000px, 0, 0);}
+	40% {-webkit-transform:translate3d(10%, 0, 0);transform:translate3d(10%, 0, 0);}
+	80% {-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+	100% {-webkit-transform:translate3d(4%, 0, 0);transform:translate3d(4%, 0, 0);}
+}
+@keyframes slideBubble{
+	0% {-webkit-transform:translate3d(-2000px, 0, 0);transform:translate3d(-2000px, 0, 0);}
+	40% {-webkit-transform:translate3d(10%, 0, 0);transform:translate3d(10%, 0, 0);}
+	80% {-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+	100% {-webkit-transform:translate3d(4%, 0, 0);transform:translate3d(4%, 0, 0);}
+}
+
