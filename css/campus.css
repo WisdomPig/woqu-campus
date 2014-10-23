@@ -22,7 +22,7 @@
 .eraser_list li canvas {width: 100%;height: 100%;}
 .eraser_list li span {display: block;padding-top: 5px;}
 .mask {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
-.treatment_add {position: relative;z-index: 101;padding-left: 12%;font-size: 16px;line-height: 20px;color: #555;padding-top: 25px;}
+.treatment_add {position: relative;z-index: 101;padding-left: 12%;font-size: 16px;line-height: 20px;color: #555;padding-top: 40px;}
 .treatment_add h2 {font-weight: bold;}
 
 #page04 {background-color: #f1f1f1;}
