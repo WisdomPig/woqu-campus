@@ -192,6 +192,7 @@
 				indicator: false,
 				arrow:     false,
 				onchange: function(index, element, direction) {
+					$('.job_detail_wrapper').hide();
 					$('#current').html(index + 1);
 				}
 			});
@@ -202,10 +203,6 @@
 			});
 			$('.close').click(function() {
 				$(this).parent().hide();
-			});
-
-			$('.job_detail_wrapper').on('touchstart, touchmove, touchend', function(e) {
-				e.stopPropagation(); 
 			});
 
 			//treatment eraser
