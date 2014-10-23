@@ -37,7 +37,7 @@
 
 #page06, #page07, #page08, #page09 {background-color: #343142;}
 .job_detail {width: 100%;}
-.job_text {position: absolute;left: 4%;font-size: 15px;color: #d5d5d5;}
+.job_text {position: absolute;left: 4%;font-size: 15px;color: #d5d5d5;font-weight: bold;}
 .jt_d {color: #343142;}
 .jt_01 {top: 12%;}
 .jt_02 {top: 17%;}
