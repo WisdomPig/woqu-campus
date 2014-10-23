@@ -13,7 +13,9 @@ $('.pages').parallax({
         $('#current').html(index + 1);
     },
     orientationchange: function(orientation) {
-        alert(orientation)
+        if (orientation == 'landscape') {
+            alert('竖屏体验会更好哦！')
+        }
     }
 });
 
