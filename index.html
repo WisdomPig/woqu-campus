@@ -86,7 +86,7 @@
 				</section>
 				<section class="page" id="page05">
 					<img class="join_us" src="img/05/join-us.jpg">
-					<img class="join_us_tips" src="img/05/join-us-tips.png" data-animation="postMark" data-timing-function="ease-in" data-delay="300">
+					<img class="join_us_tips" src="img/05/join-us-tips.png" data-animation="postMark" data-timing-function="ease-in" data-delay="50">
 				</section>
 				<section class="page" id="page06">
 					<img class="job_detail" src="img/06/java.jpg">
@@ -94,6 +94,10 @@
 					<span class="job_text jt_d jt_02" data-animation="slideBubble" data-timing-function="ease-in" data-delay="500">用代码实现很多有趣的东西</span>
 					<span class="job_text jt_d jt_03" data-animation="slideBubble" data-timing-function="ease-in" data-delay="800">我趣一大波妹纸爱工程师</span>
 					<a class="job_btn" href="javascript:;">详情</a>
+					<div class="job_detail_wrapper">
+						<img class="job_detail_bg" src="img/06/java-detail.jpg">
+						<img class="close" src="img/close.png">
+					</div>
 				</section>
 				<section class="page" id="page07">
 					<img class="job_detail" src="img/07/ios.jpg">
@@ -122,6 +126,7 @@
 		<script type="text/javascript" src="js/parallax.js"></script>
 		<script type="text/javascript">
 		$(function() {
+			//page transition
 			$('.pages').parallax({
 				direction: 'vertical',
 				swipeAnim: 'cover',
@@ -134,6 +139,15 @@
 				}
 			});
 
+			//job detail
+			$('.job_btn').click(function() {
+				$(this).next().show();
+			});
+			$('.close').click(function() {
+				$(this).parent().hide();
+			});
+
+			//treatment eraser
 			function createCanvas(parent, width, height) {
 		        var canvas = {};
 		        canvas.node = document.createElement('canvas');

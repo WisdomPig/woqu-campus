@@ -36,10 +36,17 @@
 .join_us_tips {position: absolute;top: 0;left: 0;width: 100%;}
 
 #page06, #page07, #page08, #page09 {background-color: #343142;}
-.job_detail {width: 100%;}
+.job_detail {width: 100%;z-index: 99;}
 .job_text {position: absolute;left: 4%;font-size: 15px;color: #d5d5d5;font-weight: bold;}
 .jt_d {color: #343142;}
 .jt_01 {top: 12%;}
 .jt_02 {top: 17%;}
 .jt_03 {top: 22%;}
-.job_btn {position: absolute;top: 15%;right: 5%;width: 90px;height: 90px;background-color: #736f87;border-radius: 50%;text-align: center;line-height: 90px;color: #fff;font-size: 16px;}
+.job_btn {position: absolute;top: 15%;right: 5%;width: 90px;height: 90px;background-color: #736f87;border-radius: 50%;text-align: center;line-height: 90px;color: #fff;font-size: 16px;z-index: 100;}
+.job_detail_wrapper {position: fixed;width: 100%;height: 100%;top: 0;left: 0;display: none;z-index: 101;}
+.job_detail_bg {width: 100%;}
+.close {position: absolute;left: 50%;bottom: 6%;margin-left: -5%;width: 10%;}
+
+
+
+
