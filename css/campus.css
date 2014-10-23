@@ -37,4 +37,4 @@
 
 #page06, #page07, #page08, #page09 {background-color: #343142;}
 .job_detail {width: 100%;}
-.job_text {font-size: 15px;color: #d5d5d5;}
+.job_text {position: absolute;left: 10%;font-size: 15px;color: #d5d5d5;}
