@@ -55,7 +55,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 
 #page10, #page11 {background-color: #f1f1f1;}
 .gz_campus, .gl_campus {width: 100%;}
-.zd, .hg, .gg, .gldz, .gllg, .glly, .glsf {position: absolute;width: 100%;left: 0;top: 0;}
+.zd, .hg, .gw, .gg, .gldz, .gllg, .glly, .glsf {position: absolute;width: 100%;left: 0;top: 0;}
+.woqu_git {position: absolute;width: 50%;top: 80%;right: 5%;}
 
 #page12 {background-color: #343142;}
 .join_us {width: 100%;}
