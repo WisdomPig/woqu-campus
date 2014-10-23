@@ -54,3 +54,16 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 	100% {-webkit-transform:translate3d(4%, 0, 0);transform:translate3d(4%, 0, 0);}
 }
 
+.page [data-animation="postMark"] {
+	-webkit-transition: postMark 5s ease 0.3s;
+	transition: postMark 5s ease 0.3s;
+}
+@-webkit-keyframes postMark{
+	0% {-webkit-transform: scale(1.5, 1.5);opacity: 0;}
+	100% {-webkit-transform: scale(1, 1);opacity: 1;}
+}
+@keyframes postMark{
+	0% {-webkit-transform: scale(1.5, 1.5);opacity: 0;}
+	100% {-webkit-transform: scale(1, 1);opacity: 1;}
+}
+
