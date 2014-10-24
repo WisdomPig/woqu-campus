@@ -84,7 +84,7 @@ $(function() {
 
     //wechat api
     (function() {
-        var share_desc = "来我趣，Fun肆吧！",
+        var share_desc = "热爱旅游，追求新鲜，热爱生活，愿意去探索世界的小鲜肉，来我趣，Fun肆吧！",
             share_url = "http://wisdompig.github.com/woqu-campus",
             share_img = "http://wisdompig.github.io/woqu-campus/img/01/index-jobs.png";
 
@@ -95,7 +95,7 @@ $(function() {
                         img_url: share_img,
                         link: share_url,
                         desc: share_desc,
-                        title: "我趣旅行网2014年校园招聘"
+                        title: "我趣旅行网2014校园招聘"
                     }, function(e) {})
                 }
             ), WeixinJSBridge.on("menu:share:timeline", function(e) {
