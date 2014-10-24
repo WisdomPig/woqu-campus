@@ -95,7 +95,7 @@ $(function() {
                         img_url: share_img,
                         link: share_url,
                         desc: share_desc,
-                        title: "我趣旅行2014校园招聘"
+                        title: "我趣旅行网2014年校园招聘"
                     }, function(e) {})
                 }
             ), WeixinJSBridge.on("menu:share:timeline", function(e) {
