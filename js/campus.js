@@ -84,9 +84,9 @@ $(function() {
 
     //wechat api
     (function() {
-        var share_desc = "骚年，我们有单身妹纸有厨娘有猫奴，等你入伙",
-            share_url = "http://wisdompig.github.com/zhaopin",
-            share_img = "http://wisdompig.github.io/zhaopin/img/index-front.png";
+        var share_desc = "来我趣，Fun肆吧！",
+            share_url = "http://wisdompig.github.com/woqu-campus",
+            share_img = "http://wisdompig.github.io/woqu-campus/img/01/index-jobs.png";
 
         document.addEventListener("WeixinJSBridgeReady", function() {
             WeixinJSBridge.on("menu:share:appmessage",
@@ -95,7 +95,7 @@ $(function() {
                         img_url: share_img,
                         link: share_url,
                         desc: share_desc,
-                        title: "我趣江湖征贤令"
+                        title: "我趣旅行2014校园招聘"
                     }, function(e) {})
                 }
             ), WeixinJSBridge.on("menu:share:timeline", function(e) {
